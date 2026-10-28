@@ -1,7 +1,7 @@
 #! /usr/bin/bash
-read a
-read b
-read c
+read -p "Enter first length " a
+read -p "Enter second length " b
+read -p "Enter third length " c
 
 if [ $a == $b -a $b == $c -a $a == $c ]
 then
